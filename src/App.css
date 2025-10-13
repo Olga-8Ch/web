@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  color: #dad7cd;
+  background-color: #588157;
+  font-family: "Montserrat";
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+header
+{
+  background-color: #344e41;
+
+
+}
+nav{
+
+display:grid;
+grid-template-rows:auto auto auto;
+text-align: center;
+
+}
+#container-1 {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+footer {
+  background-color: #344e41;
+  text-align: center;
+
+
+}
+#root{
+  width: 100%;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 8vw;
+  margin-bottom: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: #dad7cd;
+}
+
+.text {
+  margin-bottom: 0;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #344e41;
+
+}
+
+.logo {
+  margin-left: 13px;
+ margin-top: 13px;
+ margin-bottom: 13px;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 20px;
+}
+h2{
+  margin: 5px;
+text-align: center;
+}
+.site-name{
+  flex:2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table{
+  order: -1;
+  box-sizing: border-box;
+  word-wrap: break-word;   /* старый вариант */
+  overflow-wrap: anywhere; /* современный, работает в большинстве браузеров */
+
+  text-overflow: ellipsis; /* обрезка, если очень длинный текст */
+  overflow: hidden;
+  white-space: normal;     /* перенос по словам */
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+ul{
+  padding: 0;
+}
+@media (width>768px){
+  table{
+    order:initial;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  nav{
+    display: flex;
+    align-items: center ;
+    margin-right: 40px;
+    a{
+      margin-right: 10%;
+    }
+  }
+  .logo{
+    margin-right:13px ;
+  }
+  h1{
+    font-size: 5vw;
+    margin-left: 80px;
+  }
+  #container-1{
+    width: 100%;
+  }
+}
