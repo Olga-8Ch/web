@@ -10,4 +10,9 @@ export default defineConfig({
       },
     }),
   ],
+  base: './', // ДОБАВЬТЕ ЭТУ СТРОЧКУ - это важно для GitHub Pages!
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets'
+  }
 })
