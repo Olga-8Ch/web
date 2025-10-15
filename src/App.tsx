@@ -21,7 +21,7 @@ function App() {
         </nav>
       </header>
       <main>
-        <h2 id="links">Ссылки</h2>
+        <h2 id="links">А вот сейчас бы пиццу 4 мазератти</h2>
         <ul>
 
           <li> <a href="https://www.kubsu.ru/index.php">Ссылка на заглавную страницу КубГУ</a></li>
